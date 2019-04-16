@@ -4,9 +4,10 @@ import axios from 'axios';
 class AddStudent extends React.Component {
     constructor(props) {
         super(props);
-        this.state: {
+        this.state = {
             students: [],
-            name: '',
+            firstName: '',
+            lastName:'',
             age: '',
             grade: '',
             status: '',
@@ -15,14 +16,17 @@ class AddStudent extends React.Component {
             birthCertificate: '',
             relation: '',
             email: '',
-            insurance: ''
+            insurance: '',
+            backgroundInformation: '',
+            criticalInformation: ''
         }
     }
 
     addStudent = e => {
         e.preventDefault();
-        axios.post('https://educell.herokuapp.com/api/students', {
-            name: this.state.name,
+        axios.post('https://educell.herokuapp.com/api/AddStudent', {
+            firstName: this.state.firstName,
+            lastName: this.state.lastName,
             age: this.state.age,
             grade: this.state.grade,
             status: this.state.status,
@@ -31,12 +35,15 @@ class AddStudent extends React.Component {
             birthCertificate: this.state.birthCertificate,
             relation: this.state.relation,
             email: this.state.email,
-            insurance: this.state.insurance
+            insurance: this.state.insurance,
+            backgroundInformation: this.state.backgroundInformation,
+            criticalInformation: this.state.criticalInformation
         })
             .then(res => { this.setState({ students: res.data }) })
             .catch(err -> console.log(err))
         this.setState({
-            name: '',
+            firstName: '',
+            lastName: '',
             age: '',
             grade: '',
             status: '',
@@ -46,6 +53,8 @@ class AddStudent extends React.Component {
             relation: '',
             email: '',
             insurance: ''
+            backgroundInformation: '',
+            criticalInformation: ''
         })
     }
 
@@ -59,9 +68,15 @@ class AddStudent extends React.Component {
                 <form onSubmit={this.newStudent}>
                     <input
                         onchange={this.handleInputChange}
-                        placeholder='New Student'
-                        value={this.state.name}
-                        name='name'
+                        placeholder='First Name'
+                        value={this.state.firstName}
+                        name='firstName'
+                    />
+                    <input
+                        onchange={this.handleInputChange}
+                        placeholder='Last Name'
+                        value={this.state.lastName}
+                        name='lastName'
                     />
                     <input
                         onchange={this.handleInputChange}
@@ -77,9 +92,21 @@ class AddStudent extends React.Component {
                     />
                     <input
                         onChange={this.handleInputChange}
-                        placeholder='Status'
+                        placeholder='School Status'
                         value={this.state.status}
                         name='status'
+                    />
+                    <input
+                        onChange={this.handleInputChange}
+                        placeholder='Do they have a birth certificate?'
+                        value={this.state.contactNumber}
+                        name='birthCertificate'
+                    />
+                    <input
+                        onChange={this.handleInputChange}
+                        placeholder='Do they have insurance'
+                        value={this.state.insurance}
+                        name='insurance'
                     />
                     <input
                         onChange={this.handleInputChange}
@@ -87,29 +114,36 @@ class AddStudent extends React.Component {
                         value={this.state.contactName}
                         name='contactName'
                     />
-                    <input
-                        onChange={handleInputChange}
-                        placeholder='Contact Number'
-                        value={this.state.contactNumber}
-                        name='birthCertificate'
-                    />
-                    <input
-                        onChange={handleInputChange}
+                     <input
+                        onChange={this.handleInputChange}
                         placeholder='Relation'
                         value={this.state.relation}
                         name='relation'
                     />
                     <input
-                        onchange={handleInputChange}
-                        placeholder='Email'
+                        onChange={this.handleInputChange}
+                        placeholder='Contact Number'
+                        value={this.state.contactNumber}
+                        name='contactNumber'
+                    />
+                    <input
+                        onchange={this.handleInputChange}
+                        placeholder='Contact Email'
                         value={this.state.email}
                         name='email'
                     />
+                    
                     <input
-                        onChange={handleInputChange}
-                        placeholder='Insurance'
-                        value={this.state.insurance}
-                        name='insurance'
+                        onChange={this.handleInputChange}
+                        placeholder='Background Information'
+                        value={this.state.backgroundInformation}
+                        name='backgroundInformation'
+                    />
+                    <input
+                        onChange={this.handleInputChange}
+                        placeholder='Critical Information'
+                        value={this.state.criticalInformation}
+                        name='criticalInformation'
                     />
                     <button type='submit'>Add Student</button>
                 </form>
