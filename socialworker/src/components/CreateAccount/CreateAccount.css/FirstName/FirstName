@@ -1,0 +1,17 @@
+.first-name {
+    height: 29px;
+    width: 130px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    line-height: 29px;
+}
+
+.rectangle {
+    height: 31px;
+    width: 234px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
