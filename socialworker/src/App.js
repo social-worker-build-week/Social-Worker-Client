@@ -1,32 +1,35 @@
 import React, { Component } from 'react';
-import './App.css';
-import axios from 'axios';
-// import { Route, Link } from 'react-router-dom';
-// import StudentPage from './SocialWorker/StudentPage';
-// import ViewAll from './SocialWorker/ViewAll';
+import { Route } from 'react-router-dom';
+
+import Navigation from './components/Navigation';
+import Login from './components/Login/Login';
+import Register from './components/Login/Register';
+import Students from './components/Students/Students';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      students: [],
-    };
-  }
- 
-  componentDidMount() {
-    axios.get('https://educell.herokuapp.com/api/students')
-      .then(res => {this.setState({ students: res.data }) })
-      .catch(err => console.log(err));
-  }
-
   render() {
     return (
       <div>
-        {/* <Route to='' */}
+        <h1>Hello</h1>
+        <Route
+          path='/'
+          component={Navigation}
+        />
+        <Route
+          path='/login'
+          component={Login}
+        />
+        <Route
+          path='/Register'
+          component={Register}
+        />
+        <Route
+          path='/Students'
+          component={Students}
+        />
       </div>
-    )
+    );
   }
   }
-
 
 export default App;

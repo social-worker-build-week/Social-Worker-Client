@@ -13,5 +13,5 @@
     height: 31px;
     width: 501px;
     border-radius: 4px;	
-    ackground-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
