@@ -1,0 +1,277 @@
+.page-title {
+	height: 57px;
+	width: 996px;
+}
+
+.all-students {
+	height: 29px;
+	width: 146px;
+	color: #1E4F5C;
+	font-family: Helvetica;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 0.47px;
+	line-height: 29px;
+}
+
+.rectangle {
+	height: 57px;
+	width: 996px;
+	background-color: #FFFFFF;
+}
+
+.grid {
+	height: 769px;
+	width: 749px;
+}
+
+.grade {
+	height: 29px;
+	width: 72px;
+	color: #1E4F5C;
+	font-family: Helvetica;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 0.47px;
+	line-height: 29px;
+}
+
+.age {
+	height: 29px;
+	width: 47px;
+	color: #1E4F5C;
+	font-family: Helvetica;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 0.47px;
+	line-height: 29px;
+}
+
+.last-visit {
+	height: 29px;
+	width: 111px;
+	color: #1E4F5C;
+	font-family: Helvetica;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 0.47px;
+	line-height: 29px;
+}
+
+.name {
+	height: 29px;
+	width: 68px;
+	color: #1E4F5C;
+	font-family: Helvetica;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 0.47px;
+	line-height: 29px;
+}
+
+.group-3 {
+	height: 727px;
+	width: 749px;
+}
+
+.line-13 {
+	box-sizing: border-box;
+	height: 1px;
+	width: 749px;
+	border: 1px solid #979797;
+}
+
+.line-14 {
+	box-sizing: border-box;
+	height: 727px;
+	width: 1px;
+	border: 1px solid #979797;
+}
+
+.child-1 {
+	height: 24px;
+	width: 655px;
+}
+
+.date-copy {
+	height: 24px;
+	width: 49px;
+	color: #424243;
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.date {
+	height: 24px;
+	width: 89px;
+	color: #424243;
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.andrew-carlson {
+	height: 24px;
+	width: 160px;
+	color: #1E4F5C;
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 0.47px;
+	line-height: 24px;
+}
+
+.rectangle {
+	height: 728px;
+	width: 749px;
+	border: 1px solid #979797;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+}
+
+.add-student-button {
+	height: 32px;
+	width: 130px;
+}
+
+.add-student {
+	height: 19px;
+	width: 113px;
+	color: #FFFFFF;
+	font-family: Helvetica;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 0.32px;
+	line-height: 19px;
+}
+
+.rectangle {
+	height: 32px;
+	width: 130px;
+	border-radius: 5px;
+	background-color: #BA4F34;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+
+.f-ilters {
+	height: 29px;
+	width: 305px;
+}
+
+.age-filter {
+	height: 29px;
+	width: 87px;
+}
+
+.triangle {
+	height: 10px;
+	width: 10px;
+	transform: scaleY(-1);
+	background-color: #FFFFFF;
+}
+
+.age {
+	height: 24px;
+	width: 37px;
+	color: #FFFFFF;
+	font-family: Helvetica;
+	font-size: 20px;
+	letter-spacing: 0.42px;
+	line-height: 24px;
+}
+
+.rectangle {
+	height: 29px;
+	width: 87px;
+	border-radius: 14.5px;
+	background-color: #1E4F5C;
+}
+
+.grade-filter {
+	height: 29px;
+	width: 102px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+
+.triangle {
+	height: 10px;
+	width: 10px;
+	transform: scaleY(-1);
+	background-color: #FFFFFF;
+}
+
+.grade {
+	height: 22px;
+	width: 52px;
+	color: #FFFFFF;
+	font-family: Helvetica;
+	font-size: 18px;
+	letter-spacing: 0.38px;
+	line-height: 22px;
+}
+
+.rectangle {
+	height: 29px;
+	width: 102px;
+	border-radius: 14.5px;
+	background-color: #1E4F5C;
+}
+
+.filter-by {
+	height: 24px;
+	width: 76px;
+	color: #1E4F5C;
+	font-family: Helvetica;
+	font-size: 20px;
+	letter-spacing: 0.47px;
+	line-height: 24px;
+}
+
+.search-field {
+	height: 32px;
+	width: 419px;
+}
+
+.search {
+	height: 18px;
+	width: 50px;
+	color: rgba(30,79,92,0.65);
+	font-family: Helvetica;
+	font-size: 15px;
+	letter-spacing: 0.31px;
+	line-height: 18px;
+}
+
+.search-icon {
+	height: 21px;
+	width: 19px;
+}
+
+.line {
+	box-sizing: border-box;
+	height: 8px;
+	width: 7px;
+	border: 1px solid #1E4F5C;
+}
+
+.oval {
+	box-sizing: border-box;
+	height: 16px;
+	width: 16px;
+	border: 1px solid #1E4F5C;
+}
+
+.rectangle {
+	height: 32px;
+	width: 419px;
+	border: 1px solid #1E4F5C;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+}
+
+.rectangle {
+	height: 944px;
+	width: 996px;
+	background-color: #F9F9F9;
+}

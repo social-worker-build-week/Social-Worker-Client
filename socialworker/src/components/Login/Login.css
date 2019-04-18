@@ -1,0 +1,269 @@
+.rectangle {
+    height: 651px;
+    width: 1024px;
+    border: 1px solid #979797;
+    background-color: #688992;
+}
+
+.welcome-back-to-educ {
+    height: 49px;
+    width: 500px;
+    color: #FFFFFF;
+    font-family: "Work Sans Medium";
+    font-size: 40px;
+    letter-spacing: 0.36px;
+    line-height: 47px;
+}
+
+.rectangle-copy-2 {
+    height: 357px;
+    width: 500px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+}
+
+.copy {
+    height: 29px;
+    width: 162px;
+    color: #424243;
+    font-family: Helvetica;	font-size: 24px;
+    letter-spacing: 0.56px;	line-height: 29px;
+}
+
+.sign-in-form {
+    height: 415px;
+    width: 500px;
+}
+
+.by-logging-in-you-re-copy {
+    height: 16px;
+    width: 335px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+}
+
+.don-t-have-an-accoun-copy {
+    height: 20px;
+    width: 262px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    line-height: 19px;
+}
+
+.rectangle-copy-3 {
+    height: 58px;
+    width: 500px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+}
+
+.forgot-password-copy {
+    height: 19px;
+    width: 137px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 19px;
+}
+
+.sign-in {
+    height: 29px;
+    width: 83px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.38px;
+    line-height: 29px;
+}
+
+.rectangle-copy-6 {
+	height: 37px;
+	width: 370px;
+	border-radius: 5px;
+	background-color: #BA4F34;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+
+.rectangle {
+	height: 37px;
+	width: 370px;
+	border-radius: 6px;
+	background-color: #BA4F34;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+
+.by-logging-in-you-re {
+	height: 16px;
+	width: 335px;
+	color: #FFFFFF;
+	font-family: Helvetica;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	line-height: 16px;
+}
+
+.don-t-have-an-accoun {
+	height: 20px;
+	width: 262px;
+	color: #FFFFFF;
+	font-family: Helvetica;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	line-height: 19px;
+}
+
+.rectangle {
+	height: 58px;
+	width: 500px;
+	border: 1px solid #FFFFFF;
+	border-radius: 8px;
+}
+
+.forgot-password {
+	height: 19px;
+	width: 137px;
+	color: #FFFFFF;
+	font-family: Helvetica;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	line-height: 19px;
+}
+
+.first-name {
+	height: 141px;
+	width: 370px;
+}
+
+.email-copy {
+	height: 29px;
+	width: 67px;
+	color: #FFFFFF;
+	font-family: Helvetica;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	line-height: 29px;
+}
+
+.password-copy {
+	height: 29px;
+	width: 118px;
+	color: #FFFFFF;
+	font-family: Helvetica;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	line-height: 29px;
+}
+
+.rectangle-copy-4 {
+	height: 31px;
+	width: 370px;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+}
+
+.lydia-thompson-gmail-copy {
+	height: 21px;
+	width: 231px;
+	color: #424243;
+	font-family: "Helvetica Neue";
+	font-size: 18px;
+	letter-spacing: 0.38px;
+	line-height: 22px;
+}
+
+.rectangle-copy-5 {
+	height: 31px;
+	width: 370px;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+}
+
+.email {
+	height: 29px;
+	width: 67px;
+	color: #FFFFFF;
+	font-family: Helvetica;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	line-height: 29px;
+}
+
+.password {
+	height: 29px;
+	width: 118px;
+	color: #FFFFFF;
+	font-family: Helvetica;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	line-height: 29px;
+}
+
+.rectangle-copy {
+	height: 31px;
+	width: 370px;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+}
+
+.lydia-thompson-gmail {
+	height: 21px;
+	width: 231px;
+	color: #424243;
+	font-family: "Helvetica Neue";
+	font-size: 18px;
+	letter-spacing: 0.38px;
+	line-height: 22px;
+}
+
+.rectangle {
+	height: 31px;
+	width: 370px;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+}
+
+.group {
+	height: 37px;
+	width: 370px;
+}
+
+.sign-in {
+	height: 29px;
+	width: 83px;
+	color: #FFFFFF;
+	font-family: Helvetica;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 0.38px;
+	line-height: 29px;
+}
+
+.rectangle {
+	height: 37px;
+	width: 370px;
+	border-radius: 6px;
+	background-color: #BA4F34;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+
+.rectangle {
+	height: 651px;
+	width: 1024px;
+	border: 1px solid #979797;
+	background-color: #688992;
+}

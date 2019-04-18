@@ -1,0 +1,190 @@
+.create-an-educell-ac {
+	height: 49px;
+	width: 523px;
+	color: #FFFFFF;
+	font-family: Helvetica;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 0.36px;
+	line-height: 48px;
+}
+
+.rectangle {
+	height: 631px;
+	width: 604px;
+	border: 1px solid #FFFFFF;
+	border-radius: 8px;
+}
+
+.first-name {
+	height: 537px;
+	width: 501px;
+}
+
+.organization {
+	height: 68px;
+	width: 501px;
+}
+
+.what-organization-ar {
+	height: 29px;
+	width: 397px;
+	color: #FFFFFF;
+	font-family: Helvetica;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	line-height: 29px;
+}
+
+.organization-drop-down {
+	height: 31px;
+	width: 501px;
+}
+
+.triangle {
+	height: 13px;
+	width: 13px;
+	transform: scaleY(-1);
+	background-color: #1E4F5C;
+}
+
+.choose-organization {
+	height: 24px;
+	width: 197px;
+	color: rgba(66,66,67,0.6);
+	font-family: Helvetica;
+	font-size: 20px;
+	letter-spacing: 0.47px;
+	line-height: 24px;
+}
+
+.rectangle-copy-5 {
+	height: 31px;
+	width: 501px;
+	border-radius: 15.5px;
+	background-color: #FFFFFF;
+}
+
+.confirm-password {
+	height: 68px;
+	width: 501px;
+}
+
+.confirm-password {
+	height: 29px;
+	width: 220px;
+	color: #FFFFFF;
+	font-family: Helvetica;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	line-height: 29px;
+}
+
+.rectangle-copy-4 {
+	height: 31px;
+	width: 501px;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+}
+
+.password {
+	height: 68px;
+	width: 501px;
+}
+
+.password {
+	height: 29px;
+	width: 118px;
+	color: #FFFFFF;
+	font-family: Helvetica;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	line-height: 29px;
+}
+
+.phone-number {
+	height: 68px;
+	width: 501px;
+}
+
+.phone-number {
+	height: 29px;
+	width: 177px;
+	color: #FFFFFF;
+	font-family: Helvetica;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	line-height: 29px;
+}
+
+.email {
+	height: 68px;
+	width: 501px;
+}
+
+.email {
+	height: 29px;
+	width: 67px;
+	color: #FFFFFF;
+	font-family: Helvetica;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	line-height: 29px;
+}
+
+
+.first-name {
+	height: 68px;
+	width: 501px;
+}
+
+.full-name {
+	height: 29px;
+	width: 120px;
+	color: #FFFFFF;
+	font-family: Helvetica;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	line-height: 29px;
+}
+
+.join-educell {
+	height: 29px;
+	width: 149px;
+	color: #FFFFFF;
+	font-family: "Work Sans SemiBold";
+	font-size: 24px;
+	letter-spacing: 0.38px;
+	line-height: 28px;
+}
+
+.rectangle {
+	height: 36px;
+	width: 500px;
+	border-radius: 5px;
+	background-color: #BA4F34;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+
+.by-joining-you-re-ag {
+	height: 16px;
+	width: 315px;
+	color: #FFFFFF;
+	font-family: Helvetica;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	line-height: 16px;
+}
+
+.blug-bg {
+	height: 810px;
+	width: 1024px;
+	background-color: #688992;
+}

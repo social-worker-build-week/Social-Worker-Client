@@ -50,8 +50,8 @@ class Login extends React.Component {
 
     render() {
             return (
-                <div>
-                    <h1>Welcome Back!</h1>
+                <div className='sign-in-form'>
+                    <h1 className='welcome-back-to-educ'>Welcome Back!</h1>
                     <form onSubmit={this.signIn}>
                     <h2>Username</h2>
                         <input
